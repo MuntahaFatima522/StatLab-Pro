@@ -1,0 +1,58 @@
+================================================================================
+COMPREHENSIVE STATISTICAL ANALYSIS REPORT
+================================================================================
+
+Report Generated: 2026-03-01 15:36:27
+Dataset: M:/semester4/AIL/Numpy Practice/sample_data.csv
+Total Records: 100
+Total Variables: 4
+
+DATASET OVERVIEW
+----------------------------------------
+Memory Usage: 3.25 KB
+Total Cells: 400
+Missing Values: 0
+
+COLUMN DETAILS
+----------------------------------------
+
+age:
+  Type: float64
+  Missing: 0 (0.0%)
+  Mean ± Std: 40.88 ± 13.92
+  Range: [18.00, 64.00]
+
+salary:
+  Type: float64
+  Missing: 0 (0.0%)
+  Mean ± Std: 71565.10 ± 17300.12
+  Range: [35175.76, 106335.28]
+
+years_experience:
+  Type: float64
+  Missing: 0 (0.0%)
+  Mean ± Std: 21.88 ± 11.42
+  Range: [0.00, 39.00]
+
+score:
+  Type: float64
+  Missing: 0 (0.0%)
+  Mean ± Std: 83.09 ± 18.74
+  Range: [35.64, 119.09]
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Top 5 Strongest Correlations:
+  1. years_experience & score: 0.866 (positive)
+  2. age & salary: 0.819 (positive)
+  3. salary & years_experience: -0.238 (negative)
+  4. salary & score: -0.185 (negative)
+  5. age & years_experience: -0.144 (negative)
+
+Outlier Analysis (IQR Method):
+  age: 0 outliers (0.0%)
+  salary: 0 outliers (0.0%)
+  years_experience: 0 outliers (0.0%)
+  score: 0 outliers (0.0%)
